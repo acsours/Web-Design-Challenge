@@ -12,7 +12,8 @@
 /* this has a gap on the right - how to fix? */
 .container {
     padding: 0px;
-    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #ededed;
     position: absolute;
     top: 20%;
@@ -23,31 +24,17 @@ body {
     background-color: #ededed;
 }
 
-.navbar {
-    padding: 10px;
-    position: absolute;
-    top: 0px;
-    right: 5%;
-}
-
-.navbar li {
-    display: inline-block;
-    padding: 20px;
-    border: 2px;
-    font-size: 14px;
-}
-
-/* Getting rid of the default link styles here */
-.navbar li a {
-    color:grey;
-    text-decoration: none;
-  }
-
   /* .box {
       height: 300px;
       background: white;
   } */
+.container h1 {
+    margin-left: 5%;
+}
 
+.container p {
+    margin-left: 5%;
+}
 h2 {
     padding-bottom: 5%;
 }
@@ -72,6 +59,49 @@ img {
 .col-md-4 {
     padding-right: 5%;
 }
+
+
+
+
+.navbar {
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    right: 5%;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 20px;
+    border: 2px;
+    font-size: 14px;
+}
+
+/* Getting rid of the default link styles here */
+.navbar li a {
+    color:grey;
+    text-decoration: none;
+  }
+
+
+
+  h5 {
+    text-align: center;
+}
+
+
+.table {       
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+    background-color: white; 
+    position: absolute;
+    top:40%;
+    left: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
 
 @media (max-width: 600px) {
 

@@ -1,11 +1,20 @@
 /* this has a gap on the right - how to fix? */
-.container {
+/* .container {
     padding: 10px;
     margin: auto;
     width: 80%;
     background-color: white;
     /* top: 20%; */
+} */
+
+.container {
+    padding: 0px;
+    margin: 0px;
+    background-color: #ededed;
+    position: absolute;
+    top: 20%;
 }
+
 
 body {
     background-color: #ededed;

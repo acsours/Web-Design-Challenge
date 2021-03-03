@@ -1,3 +1,7 @@
-article {
+.col-md-6 {
     background-color: #ededed;
+}
+
+.summary {
+    color: white;
 }

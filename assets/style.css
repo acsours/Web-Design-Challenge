@@ -54,6 +54,12 @@ h4 {
       float: left;
   }
 
+img {
+    padding: 2%;
+    margin: 2%;
+    clear: both;
+}
+
 
 @media (max-width: 600px) {
 

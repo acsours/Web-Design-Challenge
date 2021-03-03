@@ -7,7 +7,7 @@
     color: white;
 }
 
-/* Do I want to put the background color on .container or on body? (body looks better) */
+/* this has a gap on the right - how to fix? */
 .container {
     padding: 0px;
     margin: 0px;
@@ -15,6 +15,7 @@
     position: absolute;
     top: 20%;
 }
+
 
 .navbar {
     padding: 10px;
@@ -35,3 +36,28 @@
     color:grey;
     text-decoration: none;
   }
+
+  /* .box {
+      height: 300px;
+      background: white;
+  } */
+
+h2 {
+    padding-bottom: 5%;
+}
+
+h4 {
+    padding-top: 5%;
+}
+
+#summary-viz {
+      float: left;
+  }
+
+
+@media (max-width: 600px) {
+
+    
+    img {
+        display: inline-block;
+    }

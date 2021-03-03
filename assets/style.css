@@ -3,8 +3,8 @@
     
 } */
 
-.summary {
-    color: white;
+#text-box {
+    background-color: white;
 }
 
 /* this has a gap on the right - how to fix? */
@@ -16,6 +16,9 @@
     top: 20%;
 }
 
+body {
+    background-color: #ededed;
+}
 
 .navbar {
     padding: 10px;
@@ -57,9 +60,15 @@ h4 {
 img {
     padding: 2%;
     margin: 2%;
-    clear: both;
 }
 
+.col-md-8{
+    padding-left:5%;
+}
+
+/* .col-md-4 {
+    padding-right: 5%;
+} */
 
 @media (max-width: 600px) {
 

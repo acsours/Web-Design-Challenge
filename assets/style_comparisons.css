@@ -1,0 +1,38 @@
+/* this has a gap on the right - how to fix? */
+.container {
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+    background-color: white;
+    /* top: 20%; */
+}
+
+body {
+    background-color: #ededed;
+}
+
+
+.navbar {
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    right: 5%;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 20px;
+    border: 2px;
+    font-size: 14px;
+}
+
+/* Getting rid of the default link styles here */
+.navbar li a {
+    color:grey;
+    text-decoration: none;
+  }
+
+
+h5 {
+    text-align: center;
+}

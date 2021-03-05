@@ -5,9 +5,7 @@
 
 
 
-/* #text-box {
-    background-color: white;
-} */
+
 
 .summary {
     background-color: white;
@@ -93,13 +91,13 @@ img {
     margin: 2%;
 }
 
-.col-md-8{
+/* .col-md-8{
     padding-left:5%;
 }
 
 .col-md-4 {
     padding-right: 5%;
-}
+} */
 
 
 
@@ -181,9 +179,10 @@ img {
           display: block;
       }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) { */
 
+    @media (min-width: 600px)
     
-    .col-md-6 img {
+    /* .col-md-6 img {
         display: inline-block;
-    }
+    } */

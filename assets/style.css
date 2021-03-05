@@ -11,23 +11,31 @@
 
 .summary {
     background-color: white;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    /* width: 80%; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding: 10px, 20px;
+    border: 1px solid;
+    position: absolute;
 }
 
 .viz-bar {
     background-color: white;
-    width: 100%;
+    /* width: 100%; */
     margin-left: auto;
     margin-right: auto;
+    padding: 10px, 30px;
+    border: 1px solid;
+    top: 20%;
 }
 
 img.viz-bar {
-    margin-top: 1px;
+    /* margin-top: 1px;
     margin-left: 1px;
     margin-bottom: 1px;
-    margin-right;
+    margin-right; */
+    width: auto;
+    height: auto;
 }
 /* this has a gap on the right - how to fix? could fix with width? */
 .container {
@@ -48,15 +56,26 @@ body {
       height: 300px;
       background: white;
   } */
-.container h1 {
+/* .container h1 {
     margin-left: 5%;
 }
 
 .container p {
     margin-left: 5%;
+} */
+
+/* p.summary {
+    padding-right: 50px;
+    color: red;
+} */
+
+div p {
+    color: blue;
+    padding: 5px 20px;
 }
 h2 {
-    padding-bottom: 5%;
+    padding: 5px 10px;
+    text-align: left;
 }
 
 h4 {
@@ -65,8 +84,8 @@ h4 {
 
 #summary-viz {
       float: left;
-      width: 300px;
-      height: 200px;
+      width: auto;
+      height: auto;
   }
 
 img {
@@ -113,9 +132,10 @@ img {
 
     
 .comparison-header{
-    position: absolute;
-    left: 35%;    
+    /* position: absolute;
+    left: 35%;     */
 }
+
 
 .table {       
     padding: 10px;

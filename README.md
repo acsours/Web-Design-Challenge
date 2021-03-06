@@ -14,14 +14,15 @@ This is a website written in HTML that shows an analysis of weather data from Op
 This repository also includes a csv file of the source data, a jupyter notebook written using pandas to convert the csv to html, and all source images from the original data analysis. 
 
 ## Output-Preview
-   
+
+#### Landing Page
 ![summary_page.png](visualizations/summary_page.png?raw=true "Title")
 
-
+#### Comparisons Page
 ![comparisons_page.png](visualizations/comparisons_page.png?raw=true "Title")
 
-
+#### Data Page
 ![data_header.png](visualizations/data_header.png?raw=true "Title")
 
-
+#### Responsive Navigation Bar
 ![responsive_navbar.png](visualizations/responsive_navbar.png?raw=true "Title")

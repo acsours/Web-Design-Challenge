@@ -1,22 +1,3 @@
-/* .col-md-6 {
-    background-color: #ededed;
-    
-} */
-
-
-
-
-
-.summary {
-    background-color: white;
-    /* width: 80%; */
-    /* margin-left: auto;
-    margin-right: auto; */
-    padding: 10px, 20px;
-    border: 1px solid;
-    position: absolute;
-}
-
 .viz-bar {
     background-color: white;
     /* width: 100%; */
@@ -28,18 +9,14 @@
 }
 
 img.viz-bar {
-    /* margin-top: 1px;
-    margin-left: 1px;
-    margin-bottom: 1px;
-    margin-right; */
     width: auto;
     height: auto;
 }
-/* this has a gap on the right - how to fix? could fix with width? */
+
 .container {
     margin-left: auto;
     margin-right: auto;
-    background-color: #ededed;
+    background-color:white;
 }
 
 
@@ -47,25 +24,8 @@ body {
     background-color: #ededed;
 }
 
-  /* .box {
-      height: 300px;
-      background: white;
-  } */
-/* .container h1 {
-    margin-left: 5%;
-}
-
-.container p {
-    margin-left: 5%;
-} */
-
-/* p.summary {
-    padding-right: 50px;
-    color: red;
-} */
 
 div p {
-    color: blue;
     padding: 5px 20px;
 }
 h2 {
@@ -73,9 +33,6 @@ h2 {
     text-align: left;
 }
 
-h4 {
-    padding-top: 5%;
-}
 
 #summary-viz {
       float: left;
@@ -88,98 +45,48 @@ img {
     margin: 2%;
 }
 
-/* .col-md-8{
-    padding-left:5%;
-}
-
-.col-md-4 {
-    padding-right: 5%;
-} */
 
 
 
-/* 
-.navbar {
-    padding: 10px;
-    position: fixed;
-    top: 0px;
-    right: 5%;
-}
-
-.navbar li {
-    display: inline-block;
-    padding: 20px;
-    border: 2px;
-    font-size: 14px;
-}
-
-/* Getting rid of the default link styles here */
 .navbar li a {
     color:grey;
     text-decoration: none;
-  } */
+  } 
 
+.navbar-brand {
+    background-color:teal;
+    padding: 5px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
 
+.navbar-light .navbar-brand {
+    color: white;
+}
 
   h5 {
     text-align: center;
+    padding-top: 5px;
 }
 
     
 .comparison-header{
-    /* position: absolute;
-    left: 35%;     */
+    position: absolute;
+    left: 30%; 
+    color: teal;   
 }
 
 
-.table {       
-    padding: 10px;
-    margin: auto;
-    width: 80%;
-    background-color: white; 
-    position: absolute;
-    top:40%;
-    left: 5%;
-    margin-left: auto;
-    margin-right: auto;
+
+
+    @media (max-width: 600px) {
+
+        body {
+            background-color:white;
+        }
+
+        nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+            background-color: teal;
+        }
     }
-
-
-    /* .topnav {
-        background-color: #333;
-        overflow: hidden;
-      } */
-      
-      /* Style the links inside the homebutton */
-      /* .topnav a {
-        float: left;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-      }
-      
-      /* Change the color of links on hover */
-      /* .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-      }
-      
-      /* Add a color to the active/current link */
-      /* .topnav a.active {
-        background-color: #4CAF50;
-        color: white;
-      }
-
-      .topnav li.nav-item {
-          display: block;
-      }  */
-
-/* @media (max-width: 600px) { */
-
-    @media (min-width: 600px)
     
-    /* .col-md-6 img {
-        display: inline-block;
-    } */
